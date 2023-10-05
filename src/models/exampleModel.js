@@ -1,4 +1,0 @@
-const exampleModel = {}
-exampleModel.get = () => {
-    
-} 
