@@ -8,7 +8,11 @@ node -v
 ```
 jika muncul seperti ini : v18.12.1 berarti teman - teman sudah menginstall nodejs
 
-* silahkan clone atau download kode ini kedalam komputer teman - teman 
+* silahkan clone atau download kode ini kedalam komputer teman - teman
+* sebelum menjalankan program teman - teman harus install dulu library nodejs dalam project ini caranya :
+  ```
+  npm install
+  ```
 * jika sudah, jalankan program tersebut dengan mengetik : 
 ```bash
 node index.js
