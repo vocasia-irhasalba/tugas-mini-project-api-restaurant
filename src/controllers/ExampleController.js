@@ -9,5 +9,10 @@ exampleController.getAll = (req,res) => {
     })
 }
 // silahkan buat varian controller lain sesuai fitur masing masing
-
+exampleController.create = (req,res) => {
+    const menus = menuModel.create(req.body)
+    res.json({
+        message : menus
+    })
+}
 module.exports = exampleController
