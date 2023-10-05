@@ -1,0 +1,4 @@
+const exampleModel = {}
+exampleModel.get = () => {
+    
+} 
